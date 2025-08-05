@@ -1,21 +1,17 @@
 @Quinn Lindsey Updated: 7/15/2025
 
-**Cleanup Automation Bot**
+Cleanup Automation Bot
 Project Overview
-
-**Essential Components**
-Component            	            Program Name            Progress
-Pitchbook Tree Generator	    PBTree	            95%
-Retool Inputer & Comparison	    RetoolBot	            95%
-Google AI Agent Search	            GoogleAgent	            0%
-
-**Lesser Components**
-Component	                                            Progress
-CapIQ Comparison	                                    0%
-Simple UI Interface                                         90%
-
-**Flow of the program with only the Essential Components**
-
+Essential Components
+Component	Program Name	Progress
+Pitchbook Tree Generator	PBTree	95%
+Retool Inputer & Comparison	RetoolBot	95%
+Google AI Agent Search	GoogleAgent	0%
+Lesser Components
+Component	Progress
+CapIQ Comparison	0%
+Simple UI Interface	90%
+Flow of the program with only the Essential Components
 PBTree is given a list of root pitchbook ids from the cleanup Queue by RetoolBot.
 
 The user then checks off the companies in the UI that are needed to be scraped.
@@ -30,30 +26,52 @@ The Google Agent then checks the work of the bot and reviews the mismatched data
 
 The user then goes into the cleanup queue and reviews the raised mismatches & the work of the bot.
 
-**PBTree**
-├── Features Working
-│   ├── Recursive generation of a structure
-│   ├── Auto login & cookies caching
-│   ├── Custom persistent chrome profile to avoid freaking out pitchbook
-│   ├── Mimics a user 100%, avoids detection
-│   ├── Scraped Former names, PB ID, website, profile URL, Legal names, address, and more for each affiliate
-│   ├── Added M&A scraping
-│   └── Saves all data collected into a tree structured JSON file so it can be easily readable by users and the other components
-└── Features To Implement Still
-    └── Non-essential features:
-        ├── Improve Speed using Multithreading accorss multiple browser instances
-        ├── Improve Speed using custom css triggers instead of sleeps between css element loaded checks
-        ├── Try different methods to render the css faster
-        └── Search for a Parent of root in case of user error
-        
-**RetoolBot**
-├── Features Working
-│   ├── User SSO Login
-│   ├── Login cached
-│   ├── Inputs data from PBTREE
-│   ├── Identifies mismatches and raises warnings.
-│   ├── Navigates queue and fills out every root company selected.
-│   └── Adds children from search
-└── Features To Implement Still
-    ├── Rate limit
-    └── Multithreading
+PBTree
+Features Working
+
+Recursive generation of a structure
+
+Auto login & cookies caching
+
+Custom persistent chrome profile to avoid freaking out pitchbook
+
+Mimics a user 100%, avoids detection
+
+Scraped Former names, PB ID, website, profile URL, Legal names, address, and more for each affiliate
+
+Added M&A scraping
+
+Saves all data collected into a tree structured JSON file so it can be easily readable by users and the other components
+
+Features To Implement Still
+
+Non-essential features:
+
+Improve Speed using Multithreading accorss multiple browser instances
+
+Improve Speed using custom css triggers instead of sleeps between css element loaded checks
+
+Try different methods to render the css faster
+
+Search for a Parent of root in case of user error
+
+RetoolBot
+Features Working
+
+User SSO Login
+
+Login cached
+
+Inputs data from PBTREE
+
+Identifies mismatches and raises warnings.
+
+Navigates queue and fills out every root company selected.
+
+Adds children from search
+
+Features To Implement Still
+
+Rate limit
+
+Multithreading
