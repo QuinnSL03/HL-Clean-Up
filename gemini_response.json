@@ -1,0 +1,35 @@
+{
+    "candidates": [
+        {
+            "content": {
+                "parts": [
+                    {
+                        "text": "Sir Balderon, they called him the Bastion of Brightwood. Not for his wit, which was as sharp as a rusty butter knife, but for his unwavering courage. Balderon wasn't particularly strong, nor was he exceptionally skilled with a blade. But when faced with danger, a stubborn, unwavering light ignited in his eyes.\n\nBrightwood was a small, unassuming village nestled beside the Whispering Woods, a place rumored to be haunted by goblins and darker things. When word arrived that the Gnarltooth Clan, the most savage goblins in the region, were planning a raid, fear gripped the village. Farmers huddled, blacksmiths sharpened tools, and the village elder wrung his hands.\n\nBalderon, polishing his dented breastplate, listened patiently. He'd never faced goblins before. He'd mostly dealt with runaway pigs and the occasional disgruntled goose. But he was a knight, oath-sworn to protect the helpless.\n\n\"I will defend Brightwood,\" he declared, his voice surprisingly firm.\n\nThe villagers looked at him, skepticism etched on their faces. He was, after all, Balderon.\n\nAs night fell, the goblins attacked. A horde of green, snarling creatures emerged from the Whispering Woods, brandishing rusty blades and crude clubs. Fear almost paralyzed the villagers, but Balderon stood his ground, his sword held high.\n\nHe charged.\n\nNot with a mighty roar, but with a slightly breathless yell of \"For Brightwood!\"\n\nHis first swing missed. The second glanced off a goblin's shoulder, leaving a small scratch. But the goblin, surprised by Balderon's sheer audacity, stumbled back. Another goblin, trying to flank him, tripped over a root.\n\nBalderon realized something: goblins, for all their snarling and bluster, were clumsy and disorganized. He didn't have to be a master swordsman, he just had to be... irritating.\n\nHe dodged, weaved, and tripped them with his shield. He yelled nonsensical phrases like \"Have you tried polishing your teeth lately?\" and \"Is that your mother's tunic you're wearing?\" He even pretended to admire a goblin's poorly fashioned ear ornament.\n\nHis bizarre tactics completely bewildered the Gnarltooth Clan. Their attack faltered. They argued amongst themselves. They slipped in the mud.\n\nMeanwhile, emboldened by Balderon's unexpected success, the villagers began to fight back. Farmers hurled rocks, the blacksmith swung his hammer, and even the village elder whacked a goblin with his walking stick.\n\nThe goblins, overwhelmed by the unexpected resistance and thoroughly confused by Balderon's antics, retreated into the Whispering Woods, leaving behind a trail of broken weapons and bruised egos.\n\nBrightwood was safe.\n\nBalderon, covered in mud and slightly out of breath, was hoisted onto the shoulders of the villagers. He hadn't defeated the goblins with skill or strength, but with his unwavering courage and a healthy dose of sheer, chaotic absurdity.\n\nFrom that day on, Sir Balderon was still known as the Bastion of Brightwood, but he was also known as something else: the Knight of Unconventional Tactics. And sometimes, that was just the kind of bravery the world needed.\n"
+                    }
+                ],
+                "role": "model"
+            },
+            "finishReason": "STOP",
+            "avgLogprobs": -0.6330024270450367
+        }
+    ],
+    "usageMetadata": {
+        "promptTokenCount": 10,
+        "candidatesTokenCount": 680,
+        "totalTokenCount": 690,
+        "promptTokensDetails": [
+            {
+                "modality": "TEXT",
+                "tokenCount": 10
+            }
+        ],
+        "candidatesTokensDetails": [
+            {
+                "modality": "TEXT",
+                "tokenCount": 680
+            }
+        ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "responseId": "EfWIaJG8N5-I1dkP1P3nkQg"
+}
