@@ -74,3 +74,6 @@ Here is the code again for you to copy and paste into your `readme.md` file. I a
 -   **Features To Implement Still**
     -   Rate limit
     -   Multithreading
+ 
+## UI 
+![Example Image](ui.png)
