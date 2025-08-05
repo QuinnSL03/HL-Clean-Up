@@ -1,8 +1,3 @@
-You're right, when you look at the raw text, it does look flat. That's the nature of Markdown – it's a plain text file with special characters (`#`, `*`, `|`) that only get converted into styled headings, lists, and tables when viewed through a Markdown renderer, like the one on GitHub.
-
-The code I provided is correctly formatted. When you save it as a `readme.md` file and view it on a platform like GitHub, it will render with all the proper formatting—bolding, headings, tables, and nested lists—and won't look flat at all.
-
-Here is the code again for you to copy and paste into your `readme.md` file. I assure you it will look properly structured in a Markdown viewer.
 
 ---
 
